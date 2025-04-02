@@ -1,7 +1,9 @@
+'use client';
+
 export default function TopBar() {
   return (
-    <div>
-      <h1>TopBar</h1>
+    <div className="">
+      <h1 className="text-lg font-bold">TerraScope</h1>
     </div>
   );
 }
