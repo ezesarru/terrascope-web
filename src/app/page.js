@@ -39,7 +39,7 @@ useEffect(() => {
   fetchCountries()
 }, [setCountries, setLoading, setError])
 
-  return ( // No tanto ternario
+  return ( //! No tanto ternario
     <div className="">
       <h1>TerraScope!</h1>
       {loading ? (
