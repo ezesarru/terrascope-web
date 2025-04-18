@@ -11,7 +11,7 @@ useEffect(() => {
   const fetchCountries = async () => {
     try {
       setLoading(true)
-      const response = await fetch("http://localhost:3001/country", {
+      const response = await fetch("http://https://terrascope-web.vercel.app/country", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
